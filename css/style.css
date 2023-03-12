@@ -1,0 +1,106 @@
+ :root{
+    --dark-color : #081521;
+    --golden-color : #BBA288;
+    --orange-color: #dc3545;
+    --section-color: #eff7fa;
+}
+ body{
+    font-family : "Roboto","sans-serif";
+    height: 10000px;
+}
+.navbar{
+    background-color: var(--dark-color);
+}
+.navbar .navbar-nav .nav-link {
+    color: white;
+} *
+
+.navbar-brand .logo {
+    color : var(--golden-color) ; 
+    font-size : 2.5rem  ;
+}
+
+.navbar-brand span{
+    color : var(--golden-color) ; 
+   font-size : 1.5rem  ;
+   border-top: #BBA288 1px solid;
+} 
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover{
+color : var(--golden-color)
+}
+.navbar .search {
+    border-left: 1px solid var(--golden-color);
+    color: white;
+}
+
+.navbar .navbar-toggler {
+    color : white;
+    font-size: 25px;
+    border-color: white;
+}
+.navbar .navbar-toggler:focus{
+box-shadow: none;
+} 
+/* end of nav bar  */
+/* landing page start */
+.landing{
+    background-color:var(--dark-color);
+    min-height : calc(100vh - 71px)
+    
+}
+.btn:focus{
+    box-shadow: none;
+}
+
+.mainLogo{
+    font-size: 150px;
+    margin-bottom: 50px;
+    color: var(--golden-color);}
+    /* landing page end */
+    /* second page start */
+    .secondLogo{
+        font-size: 75px;
+        color: var(--orange-color);
+        border: #dc3545;
+        margin-top: 120px;  
+    }
+    .par1{
+        padding-bottom: 0px;
+        border-bottom: var(--golden-color) solid;
+        width: 120px;
+        position: absolute;
+        left: 50%;
+        transform:translateX(-50%) ;
+    }
+    /* second page end */
+    /* features start */
+ 
+    .features .icon-holder{
+        height: 200px;
+    }
+    .features .icon-holder svg{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .features .icon-holder .number{
+        font-size: 12rem;
+        color : var(--section-color);
+    }
+    .features .icon-holder .icon{
+        color: var(--golden-color);
+        display: inline-block;
+       
+    }
+    .secondPage .row h3{
+        color: var(--dark-color);
+    }
+
+    
+    
+    /* features end */
+
+
