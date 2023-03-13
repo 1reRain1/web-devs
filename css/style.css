@@ -1,3 +1,5 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
  :root{
     --dark-color : #081521;
     --golden-color : #BBA288;
@@ -65,7 +67,6 @@ box-shadow: none;
         font-size: 75px;
         color: var(--orange-color);
         border: #dc3545;
-        margin-top: 120px;  
     }
     .par1{
         padding-bottom: 0px;
@@ -102,5 +103,51 @@ box-shadow: none;
     
     
     /* features end */
+
+    /* our work */
+    .our-work{
+        background-color : var(--section-color);
+    }
+    .our-work ul .active{
+        background-color: var(--orange-color);
+        color: white;
+
+    }
+    .our-work ul li{
+        padding: 1rem 1.5rem;
+        cursor: pointer;
+    }
+    .our-work ul li:not(.active):hover{
+        color: var(--orange-color);
+    }
+    .our-work .box{
+        padding: 5px;
+        overflow:hidden;
+        position: relative;
+
+    }
+    .our-work .box::before{
+        content: attr(data-work);
+        position: absolute;
+        background-color: #bba2885e;
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--section-color);
+        font-weight:bold;
+        transition: 0.3s;
+        font-size: 2rem;
+        transform: translateX(calc(-100% - 5px));
+        font-family: 'Edu NSW ACT Foundation', cursive;
+       
+
+    }
+    .our-work .box:hover::before{
+        transform: translateX(0);
+
+    }
+    /* end our work */
 
 
