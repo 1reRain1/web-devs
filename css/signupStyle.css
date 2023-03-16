@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+:root{
+    --dark-color : #081521;
+    --golden-color : #BBA288;
+    --orange-color: #dc3545;
+    --section-color: #eff7fa;
+    font-family : "Roboto","sans-serif";
+}
+ body{
+    height: 10000px;
+    background-color: var(--section-color);
+}
+.navbar{
+    background-color: var(--dark-color);
+}
+.navbar .navbar-nav .nav-link {
+    color: white;
+} 
+
+.navbar-brand .logo {
+    color : var(--golden-color) ; 
+    font-size : 2.5rem  ;
+}
+
+.navbar-brand span{
+    color : var(--golden-color) ; 
+   font-size : 1.5rem  ;
+   border-top: var(--golden-color) 1px solid;
+} 
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover{
+color : var(--golden-color)
+}
+.navbar .search {
+    border-left: 1px solid var(--golden-color);
+    color: white;
+}
+
+.navbar .navbar-toggler {
+    color : white;
+    font-size: 25px;
+    border-color: white;
+}
+.navbar .navbar-toggler:focus{
+box-shadow: none;
+} 
+
+/*5*/
+
+.webdevsLoginForm{
+    max-width: 600px;
+    margin: 80px auto;
+    position: relative;
+    box-shadow: 0 10px 30px 0 rgba(0 0,0,0.1);
+    padding: 30px;
+    background-color: var(--section-color);
+    /* background-color: var(--dark-color); */
+}
+.webdevsLoginForm .logo {
+    color : var(--dark-color) ; 
+    font-size : calc(2rem * 2)  ;
+}
+
+.webdevsLoginForm span{
+    color : var(--dark-color) ; 
+   font-size : 2rem  ;
+   border-top: var(--dark-color) 2px  solid;
+   font-weight: 500;
+
+} 
+.signUpForm .form-field{
+    position: relative;
+    margin: 32px 0;
+    
+}
+.signUpForm .input-text{
+    display: block;
+    width: 100%;
+    height:36px;
+    border-width : 0 0 2px 0 ; 
+    border-color: var(--golden-color);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    background-color: var(--section-color);
+}
+
+.signUpForm .input-text:focus{
+    outline: none;
+    /* background-color: white */
+}
+.signUpForm .input-text:valid ~ label ,
+.signUpForm .input-text:focus ~ label 
+{
+color: var(--section-color);
+transform: translateY(-25px);
+background-color: var(--golden-color);
+color: var(--section-color);
+font-weight: 600;
+padding: 6px;
+transition: 0.25s ;
+border-radius: 10px;
+}
+.signUpForm .label{
+    position:absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 12px;
+    line-height: 10px;
+    font-weight: 400;
+    color: var(--dark-color);
+    cursor: text;
+    transition: transform 0.2s ease-in-out;
+}
+

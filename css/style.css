@@ -1,5 +1,5 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
  :root{
     --dark-color : #081521;
     --golden-color : #BBA288;
@@ -154,7 +154,6 @@ box-shadow: none;
     .decription{
        max-width: 800px;
     }
-
 
     /* end staff section */
 
