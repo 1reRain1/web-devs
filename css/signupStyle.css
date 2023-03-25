@@ -7,11 +7,11 @@
     font-family : "Roboto","sans-serif";
 }
  body{
-    height: 10000px;
     background-color: var(--section-color);
 }
 .navbar{
     background-color: var(--dark-color);
+   
 }
 .navbar .navbar-nav .nav-link {
     color: white;
@@ -49,30 +49,30 @@ box-shadow: none;
 
 /*5*/
 
-.webdevsLoginForm{
-    max-width: 600px;
+.webdevssignupForm{
+    max-width: 450px;
     margin: 80px auto;
     position: relative;
     box-shadow: 0 10px 30px 0 rgba(0 0,0,0.1);
     padding: 30px;
     background-color: var(--section-color);
-    /* background-color: var(--dark-color); */
 }
-.webdevsLoginForm .logo {
+.webdevssignupForm .logo {
     color : var(--dark-color) ; 
     font-size : calc(2rem * 2)  ;
+    margin-bottom: 55px;
 }
 
-.webdevsLoginForm span{
+.webdevssignupForm span{
     color : var(--dark-color) ; 
-   font-size : 2rem  ;
-   border-top: var(--dark-color) 2px  solid;
-   font-weight: 500;
+    font-size : 2rem  ;
+    border-top: var(--dark-color) 2px  solid;
+    font-weight: 500;
 
 } 
 .signUpForm .form-field{
     position: relative;
-    margin: 32px 0;
+    margin: 15px 0;
     
 }
 .signUpForm .input-text{
@@ -81,15 +81,13 @@ box-shadow: none;
     height:36px;
     border-width : 0 0 2px 0 ; 
     border-color: var(--golden-color);
-    font-size: 16px;
     line-height: 26px;
-    font-weight: 400;
+    font-weight: 500;
     background-color: var(--section-color);
 }
 
 .signUpForm .input-text:focus{
     outline: none;
-    /* background-color: white */
 }
 .signUpForm .input-text:valid ~ label ,
 .signUpForm .input-text:focus ~ label 
@@ -107,11 +105,16 @@ border-radius: 10px;
     position:absolute;
     left: 20px;
     bottom: 11px;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 10px;
     font-weight: 400;
     color: var(--dark-color);
     cursor: text;
     transition: transform 0.2s ease-in-out;
 }
+/* .container .form-field .loginnow a{
+    font-size: 12px;
+    text-decoration:none;
+    color: var(--dark-color);
 
+} */
